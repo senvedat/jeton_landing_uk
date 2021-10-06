@@ -1,0 +1,40 @@
+.section-third {
+    background-color: #fafafa;
+    height: 600px;
+    /* line-height: 650px; */
+    text-align: center;
+    border-bottom: 1px solid #dee1e4;
+}
+
+.sec-third-left {
+    padding-top: 14%;
+}
+
+.sec-third-right {
+    /* padding-top: 12%; */
+}
+
+.sec-third-img {
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.color-blue {
+    color: #4984ef;
+}
+
+/*** RESPONSIVE STYLE ***/
+
+@media only screen and (max-width: 600px) {
+    .sec-third-img {
+        position: relative;
+    }
+}
+
+.section-third {
+    height: 130%;
+}
+
+/*** RESPONSIVE STYLE ***/

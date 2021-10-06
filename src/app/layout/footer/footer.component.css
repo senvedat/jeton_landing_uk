@@ -1,0 +1,79 @@
+.section-footer {
+    background-color: #fafafa;
+    height: 210px;
+    /* line-height: 650px; */
+    text-align: center;
+    border-bottom: 1px solid #dee1e4;
+}
+
+.sec-footer {
+    padding-top: 2%;
+}
+
+.footer-menu {
+    /* justify-content: flex-end; */
+    display: flex;
+}
+
+.footer-menu a {
+    float: left;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-menu a:hover {
+    color: #797979;
+}
+
+.btn-first-sec {
+    background-color: #4984ef;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 18px 80px;
+    border-radius: 5px;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #f0f0f0;
+    display: inline-block;
+    cursor: pointer;
+    color: #a8a8a8;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+/*** RESPONSIVE STYLE ***/
+
+@media only screen and (max-width: 600px) {
+    .footer-menu {
+        display: none !important;
+    }
+    .btn-first-sec {
+        display: none !important;
+    }
+}
+
+/*** RESPONSIVE STYLE ***/
