@@ -16,4 +16,4 @@ Landing Page - Designed with Angular
 
 ## Demo
 
-Insert link to demo
+https://jeton-landing-uk.herokuapp.com/
