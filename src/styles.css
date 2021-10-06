@@ -589,16 +589,24 @@
     padding-bottom: 30px !important;
 }
 
-.mt-15{
+.mt-15 {
     margin-top: 15px !important;
 }
 
-.mb-15{
+.mb-15 {
     margin-bottom: 15px !important;
 }
 
-.mr-10{
+.mr-10 {
     margin-right: 10px !important;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.mt-0 {
+    margin-top: 0px !important;
 }
 
 /** PADDING MARGIN SHORT **/
@@ -617,11 +625,11 @@
     font-size: 20px;
 }
 
-.fs-35{
+.fs-35 {
     font-size: 35px;
 }
 
-.fs-45{
+.fs-45 {
     font-size: 45px;
 }
 
@@ -639,7 +647,7 @@ body {
     margin: 0px !important;
 }
 
-.w-auto{
+.w-auto {
     width: auto !important;
 }
 
