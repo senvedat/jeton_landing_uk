@@ -36,6 +36,8 @@
 
 .section-third {
     height: 130%;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 /*** RESPONSIVE STYLE ***/

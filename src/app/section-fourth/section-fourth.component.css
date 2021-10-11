@@ -26,6 +26,9 @@
     .section-fourth {
         height: 120%;
         padding-bottom: 50px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-top: 25px;
     }
     .sec-fourth-left {
         padding-right: 7% !important;

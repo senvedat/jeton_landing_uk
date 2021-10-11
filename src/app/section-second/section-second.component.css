@@ -12,7 +12,7 @@
 
 .sec-second-right {
     padding-top: 12%;
-    max-width: 93%;
+    max-width: 91%;
 }
 
 .sec-second-left-title {
@@ -66,6 +66,8 @@
     .section-second {
         padding-bottom: 50px;
         height: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .sec-second-right-text {
         padding-right: 30px;

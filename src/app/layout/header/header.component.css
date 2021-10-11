@@ -68,8 +68,6 @@
   position: relative;
 }
 
-/* RESPONSIVE */
-
 .header {
   border-bottom: 1px solid #E2E8F0;
 }
@@ -121,6 +119,8 @@
   color: #482ff7;
 }
 
+/* RESPONSIVE */
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -140,24 +140,69 @@
   .nav-item {
     margin: 2.5rem 0;
   }
-  .hamburger {
+  /* MOBILE NAVIGATION */
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #dee1e4;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: rgb(34, 34, 34);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     display: block;
-    cursor: pointer;
   }
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
+  .topnav .active {
+    border-bottom: 1px solid #dee1e4;
   }
-  .hamburger.active .bar:nth-child(1) {
-    -webkit-transform: translateY(8px) rotate(45deg);
-    transform: translateY(8px) rotate(45deg);
+  .topnav a.icon {
+    /* background: black; */
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
   }
-  .hamburger.active .bar:nth-child(3) {
-    -webkit-transform: translateY(-8px) rotate(-45deg);
-    transform: translateY(-8px) rotate(-45deg);
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
   }
-  .navbar-menu {
-    display: none !important;
+  .hamburger-icon {
+    transform: translate(0%, 50%);
   }
+  .language-text {
+    /* transform: translate(0%, 50%); */
+    text-align: justify;
+  }
+  .menu-flag-img {
+    width: 18px;
+    transform: translate(0%, 5%);
+    height: 18px;
+    padding-right: 5px;
+  }
+  .menu-flag-img-2 {
+    width: 20px;
+    transform: translate(0%, 5%);
+    height: 20px;
+    padding-right: 5px;
+  }
+  /* MOBILE NAVIGATION */
 }
 
 /* RESPONSIVE END */

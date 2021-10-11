@@ -17,7 +17,7 @@
   vertical-align: middle;
   display: flex;
   padding: 15px;
-  max-width: 960px;
+  max-width: 1350px;
   margin: 0px auto;
 }
 
@@ -113,6 +113,10 @@
 }
 
 @media only screen and (max-width: 475px) {
+  .section-first {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
   .sec-first-items {
     text-align: center;
     width: 100% !important;
@@ -120,7 +124,8 @@
   .sec-first-items>div {
     flex: auto;
     /* width: 100% !important; */
-    width: auto;
+    /* width: auto; */
+    width: 80%;
     text-align: center;
   }
   .first-sec-phone {
@@ -130,6 +135,7 @@
   }
   .first-sec-title-mid {
     position: absolute;
+    
   }
   .sec-first-phone-image {
     transform: translate(-50%, 15%);
@@ -139,11 +145,11 @@
   }
   .first-sec-market>img:first-child {
     flex: auto;
-    padding-right: 20px;
+    /* padding-right: 20px; */
   }
   .first-sec-market>img:last-child {
     flex: auto;
-    padding-right: 20px;
+    /* padding-right: 20px; */
   }
   .color-first-sec-title {
     padding-left: 20px;
