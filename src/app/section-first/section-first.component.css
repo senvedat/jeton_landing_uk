@@ -37,10 +37,11 @@
 
 .sec-first-image {
   z-index: 2;
-  max-height: 410px;
+  max-height: 405px;
   vertical-align: middle;
   position: absolute;
-  transform: translate(-29%, 29%);
+  transform: translate(-30%, 30.2%);
+  width: 235px;
 }
 
 .fs-45 {
@@ -135,13 +136,12 @@
   }
   .first-sec-title-mid {
     position: absolute;
-    
   }
   .sec-first-phone-image {
     transform: translate(-50%, 15%);
   }
   .sec-first-image {
-    transform: translate(-50%, 29%);
+    transform: translate(-50%, 30%);
   }
   .first-sec-market>img:first-child {
     flex: auto;
